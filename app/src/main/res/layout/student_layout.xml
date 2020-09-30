@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/layout_item">
+
+    <TextView
+        android:id="@+id/img_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/icon_student"
+        android:gravity="center"
+        android:text="C" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_icon"
+        android:text="Đỗ Văn Cường"
+        android:textColor="#000000"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_toRightOf="@+id/img_icon"
+        android:text="MSSV: 20172986"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_mssv"
+        android:layout_toRightOf="@+id/img_icon"
+        android:text="Ngày sinh: 01/07/1999"
+        android:textSize="18sp" />
+</RelativeLayout>
